@@ -1,6 +1,9 @@
 export default {
   ssr: false,
   target: 'static',
+  router:{
+    base: "/nuxt-static/"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-static-test',
